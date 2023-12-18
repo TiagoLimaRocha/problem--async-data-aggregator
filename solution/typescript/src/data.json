@@ -1,0 +1,29 @@
+{
+  "dataSource1": {
+    "id": "source1",
+    "data": {
+      "users": [
+        { "userId": 1, "name": "Alice", "age": 28 },
+        { "userId": 2, "name": "Bob", "age": 34 }
+      ]
+    }
+  },
+  "dataSource2": {
+    "id": "source2",
+    "data": {
+      "products": [
+        { "productId": "A1", "productName": "Laptop", "price": 1200 },
+        { "productId": "B2", "productName": "Smartphone", "price": 800 }
+      ]
+    }
+  },
+  "dataSource3": {
+    "id": "source3",
+    "data": {
+      "orders": [
+        { "orderId": "ORD100", "userId": 1, "productId": "A1", "quantity": 2 },
+        { "orderId": "ORD101", "userId": 2, "productId": "B2", "quantity": 1 }
+      ]
+    }
+  }
+}
